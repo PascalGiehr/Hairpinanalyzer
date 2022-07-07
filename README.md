@@ -2,6 +2,8 @@
 Hairpinanalyzer V0.3
 by Mathias Bader (mail@mathiasbader.de)
 
+**Please note that this repository is no updated. Instead I kindly refer all users to [Mathias Bader](https://github.com/mathiasbader). You can find the most recent version of the  Haripin Analyzer here: [Hairpin Analyzer v.0.3.0](https://github.com/mathiasbader/hairpin-analyzer)**
+
 The gold standard when analysing DNA methylation is bisulfite sequencing. Genomic DNA is treated with sodium bisulfite which causes the conversion of cytosine to uracil, whereas 5-methyl cytosine (5mC) remains unchanged. After subsequent PCR and sequencing cytosine will be represented as thymine and 5mC as cytosine. The comparison to the genomic reference sequence then allows to determine the level of 5mC at a given CpG position. However, conversion of cytosine requires denaturation of DNA, resulting in the separation of Watson and Crick strand. Therefore, it is only possible to preserve the information of one DNA strand in subsequent PCR and sequencing. To overcome this limitation Laird et al. developed Hairpin Bisulfite Sequencing. During the course of this technique, the DNA is fragmented using restriction enzymes followed by covalent connection of Watson and Crick strand by ligation of a short hairpin oligo nucleotide, preventing the physical separation of both DNA strands during bisulfite treatment.
 
 The analysis of Hairpin Bisulfite data is more challenging compared to standard BS methods. Once the methylation information is extracted from the sequencing data, the double strand information has to be restored. For this purpose we developed a small python based script, the HairpinAnalyzer.
@@ -27,3 +29,4 @@ Mathias Bader:  mail@mathiasbader.de
 Pascal Giehr: 	pascalgiehr@googlemail.com
 
 Jörn Walter:    j.walter@mx.uni-saarland.de
+
